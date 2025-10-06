@@ -35,7 +35,7 @@ O site conta com diversas funcionalidades pensadas para a melhor experiência do
 * **Layout de Página Única (SPA):** Todas as informações em um único lugar, com navegação suave entre as seções.
 * **Totalmente Responsivo:** Design adaptado para uma visualização perfeita em desktops, tablets e celulares.
 * **Animações de Entrada:** Elementos surgem na tela de forma elegante conforme o usuário rola a página, utilizando a Framer Motion.
-* **Seção de FAQ Interativa:** Um "acordeão" que mostra e esconde as respostas para as perguntas mais comuns.
+* **Seção de FAQ Interativa:** Uma sessão que mostra e esconde as respostas para as perguntas mais comuns.
 * **Botão Flutuante de WhatsApp:** Um Call-to-Action sempre visível para facilitar o contato imediato.
 * **Componentização:** Código organizado em componentes React reutilizáveis e de fácil manutenção.
 
