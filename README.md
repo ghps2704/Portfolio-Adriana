@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+# 👩‍⚕️ Portfólio Profissional para Psicóloga
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status do Projeto](https://img.shields.io/badge/status-concluído-brightgreen?style=for-the-badge)
 
-Currently, two official plugins are available:
+![Prévia do Site](./caminho/para/seu/screenshot.png) 
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Sobre o Projeto
 
-## React Compiler
+Este projeto é um site de portfólio moderno e de página única (SPA), desenvolvido para uma psicóloga. O objetivo principal foi criar uma presença online profissional e acolhedora, que transmitisse confiança e facilitasse o primeiro contato de potenciais pacientes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O design foi pensado para ser limpo, sereno e totalmente responsivo, com foco na experiência do usuário através de animações sutis e navegação fluida.
 
-## Expanding the ESLint configuration
+### ✨ [Veja a Demonstração Ao Vivo](https://portfolio-adriana-gold.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Tecnologias Utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Este projeto foi construído com as mais modernas tecnologias do ecossistema Front-End:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **Vite:** Build tool de alta performance.
+* **React:** Biblioteca para construção da interface.
+* **TypeScript:** Para um código mais robusto e seguro.
+* **Tailwind CSS:** Para estilização rápida e customizável.
+* **Framer Motion:** Para animações fluidas e interativas.
+* **React-Scroll:** Para a navegação com rolagem suave na página.
+* **React-Icons:** Para a utilização de ícones.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎯 Features
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+O site conta com diversas funcionalidades pensadas para a melhor experiência do usuário:
+
+* **Layout de Página Única (SPA):** Todas as informações em um único lugar, com navegação suave entre as seções.
+* **Totalmente Responsivo:** Design adaptado para uma visualização perfeita em desktops, tablets e celulares.
+* **Animações de Entrada:** Elementos surgem na tela de forma elegante conforme o usuário rola a página, utilizando a Framer Motion.
+* **Seção de FAQ Interativa:** Um "acordeão" que mostra e esconde as respostas para as perguntas mais comuns.
+* **Botão Flutuante de WhatsApp:** Um Call-to-Action sempre visível para facilitar o contato imediato.
+* **Componentização:** Código organizado em componentes React reutilizáveis e de fácil manutenção.
+
+---
+
+## 🏁 Como Rodar o Projeto Localmente
+
+Siga os passos abaixo para executar o projeto na sua máquina.
+
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/ghps2704/portfolio-psicologa.git](https://github.com/ghps2704/portfolio-psicologa.git)
+
+# 2. Navegue até a pasta do projeto
+cd portfolio-psicologa
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
