@@ -2,7 +2,6 @@
 
 ![Status do Projeto](https://img.shields.io/badge/status-concluído-brightgreen?style=for-the-badge)
 
-![Prévia do Site] 
 ---
 
 ## 📝 Sobre o Projeto
