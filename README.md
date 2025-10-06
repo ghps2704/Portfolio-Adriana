@@ -2,7 +2,7 @@
 
 ![Status do Projeto](https://img.shields.io/badge/status-concluído-brightgreen?style=for-the-badge)
 
-![Prévia do Site](/adriana.png) 
+![Prévia do Site](/public/adriana.png) 
 ---
 
 ## 📝 Sobre o Projeto
