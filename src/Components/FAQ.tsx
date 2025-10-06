@@ -1,5 +1,5 @@
 // src/components/Faq.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaPlus, FaMinus } from 'react-icons/fa';
 // 1. Importe 'Variants' junto com 'motion'
 import { motion, type Variants } from 'framer-motion';
